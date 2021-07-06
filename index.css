@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5vh;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #121e31;
+}
+
+.main > * {
+  width: 100%;
+}
+
+.main .logo {
+  margin-top: 50px;
+}
+
+.main .logo img {
+  height: 150px;
+}
+
+.main .branding {
+  margin-top: 5vh;
+  padding: 3vh 10vw;
+  background: #fef7ea;
+}
+
+.main .branding h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main .branding h2 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main .desc {
+  padding: 30px 20vw;
+}
+
+.main button {
+  width: auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background: #ff7468;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+          box-shadow: 0px 25px 50px rgba(255, 116, 104, 0.36);
+}
+
+.main button img {
+  height: 16px;
+  margin-left: 10px;
+}
+
+.main button:hover {
+  cursor: pointer;
+}
+
+.main .iotaButton {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .main .logo img {
+    height: 70px;
+  }
+  .main .branding h1 {
+    font-size: 2rem;
+  }
+  .main .branding h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .main .branding h1 {
+    font-size: 1.3rem;
+  }
+  .main .branding h2 {
+    font-size: 1.1rem;
+  }
+  .main .desc {
+    padding: 30px 5vw;
+    font-size: 0.8rem;
+  }
+  .main button {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

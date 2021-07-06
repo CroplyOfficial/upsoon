@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <title>UP</title>
+    <script
+      type="module"
+      src="//iota-button.org/build/iota-button.esm.js"
+    ></script>
+    <script nomodule src="//iota-button.org/build/iota-button.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <p>COMING SOON</p>
+      <div class="logo">
+        <img src="/images/uplogo.svg" />
+      </div>
+      <div class="branding">
+        <h1>Create. Connect. Grow.</h1>
+        <h2>A Community Driven Project Platform</h2>
+      </div>
+      <p class="desc">
+        As a global community, there is always the need to support and encourage
+        one another to help progress and develop new creative initiatives. UP
+        provides a zero commitment, social donation platform, so that you can
+        support or create in an open space.
+      </p>
+      <div class="iotaButton">
+        <iota-button
+          address="iota1qztv8atlp2eagd670hq7mzjc0rjvs0gcw9eltderg8udkgucautyqh6nrma"
+          currency="EUR"
+          label="Donate"
+          merchant="UP"
+          type="donation"
+        ></iota-button>
+      </div>
+      <button
+        class="donate"
+        onclick="document.querySelector('iota-button').shadowRoot.querySelector('ibtn-button-donation').shadowRoot.querySelector('button').click()"
+      >
+        Donate to Support the UP Project
+        <img src="/images/like.svg" />
+      </button>
+    </div>
+  </body>
+</html>
