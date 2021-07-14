@@ -12,6 +12,7 @@
       src="//iota-button.org/build/iota-button.esm.js"
     ></script>
     <script nomodule src="//iota-button.org/build/iota-button.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   </head>
   <body>
     <div class="main">
@@ -38,13 +39,18 @@
           type="donation"
         ></iota-button>
       </div>
-      <button
-        class="donate"
-        onclick="document.querySelector('iota-button').shadowRoot.querySelector('ibtn-button-donation').shadowRoot.querySelector('button').click()"
-      >
-        Donate to Support the UP Project
-        <img src="/images/like.svg" />
-      </button>
+
+        <button
+          class="donate"
+          onclick="document.querySelector('iota-button').shadowRoot.querySelector('ibtn-button-donation').shadowRoot.querySelector('button').click()"
+        >
+          Donate to Support the UP Project
+          <img src="/images/like.svg" />
+        </button>
+        <a class="discord" href="https://discord.gg/3gTgu7TVxH">
+  
+        <i class="fab fa-discord"></i>
+        </a>
     </div>
   </body>
 </html>

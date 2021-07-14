@@ -113,3 +113,35 @@ body {
     }
   }
 }
+
+.discord {
+  cursor: pointer;
+  margin-left: 10px;
+  background: #4c6ef5;
+  color: white;
+  width: auto !important;
+  height: "50px";
+  font-size: xx-large;
+  border-radius: 5px;
+  padding-left: 15px !important;
+  padding-right: 16px !important;
+}
+
+.discord:hover{
+  transition: .3s ease-out;
+  animation: filter-animation 1s infinite;
+}
+
+@keyframes filter-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(100deg);
+  }
+  
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
